@@ -1,3 +1,20 @@
+###
+set git credentials locally
+##
+git config  --global user.name "insert github user name"
+git config  --global user.email " insert github email "
+
+git remote remove origin
+git init
+git add .
+git commit -m  " first my first nextjs project"
+git push add origin   "url repo "
+git push -u origin master
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
